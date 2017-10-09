@@ -1,0 +1,239 @@
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Raleway', sans-serif;
+*/
+body {
+  color: #605360;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+  min-height: calc(100vh - 270px);
+}
+
+.info {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.info--text {
+  font-size: 14px;
+  line-height: 1.35rem;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 76px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  text-align: center;
+  padding: 20px;
+  color: #8f868f;
+}
+
+form {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 38px;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+  color: #605360;
+  padding: 10px 5px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #7f757f;
+  padding: 5px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #7f757f;
+  padding: 5px;
+}
+
+i {
+  padding: 5px;
+}
+
+button:focus {
+  outline: 0;
+}
+.articlerow {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  min-height: 250px;
+  border-top: solid 1px #605360;
+  border-bottom: solid 1px #605360;
+}
+
+.articlerow:last-child {
+  margin-bottom: 20px;
+  border-bottom: 0px;
+}
+
+.article {
+  width: 66%;
+}
+
+.share {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+}
+
+.storyimage {
+  width: 250px;
+  height: auto;
+}
+
+.tweet {
+  padding: 5px;
+  min-width: 120px;
+  width: 100%;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #00aced;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #444;
+  border-left: 0px;
+  box-shadow: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 0.94;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.tweet:hover {
+  background-color: #009ad5;
+  border-bottom: 0px;
+  cursor: pointer;
+}
+
+#engadget, #recode, #nextWeb, #ignNews {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #605360;
+  background-color: transparent;
+  border: 0px;
+  width: 200px;
+  height: 35px;
+  padding: 5px;
+}
+
+#engadget:focus, #recode:focus, #nextWeb:focus, #ignNews:focus,
+#engadget:hover, #recode:hover, #nextWeb:hover, #ignNews:hover {
+  color: #f2b028;
+  cursor: pointer;
+}
+
+.article a {
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+  color: #7f757f;
+  padding: 10px 5px;
+}
+
+.article a:hover, .article a:focus {
+  color: #f2b028;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #605360;
+  padding-top: 40px;
+  height: 80px;
+}
+
+footer p, footer a {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 640px) {
+  .articlerow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .article {
+    width: 98%;
+  }
+
+  .share {
+    width: 98%;
+    flex-direction: row;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .share {
+    flex-direction: column;
+    width: 98%;
+  }
+
+  .storyimage {
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}
