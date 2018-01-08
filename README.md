@@ -1,4 +1,7 @@
 # News-App
+
+Take it for a spin: https://dalekrider.github.io/News-App/
+
 Simple News App using NewsAPI.org API/JSON Data
 
 This is a simple news app that uses and api to retrieve json metadata and populates that page with the first 5 news stories from the selected news source/blog. Currently there are only four sources listed however NewsAPI.org provides up to 70 news sources which can be easliy added for more news options. 
